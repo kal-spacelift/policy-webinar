@@ -10,7 +10,7 @@ variable "region" {
 variable "instance_type" {
   description = "Swap to an off-list type (e.g. m5.4xlarge) to trip the instance-type policy."
   type        = string
-  default     = "t3.medium"
+  default     = "t3.micro"
 }
 
 variable "ssh_ingress_cidr" {
