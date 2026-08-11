@@ -16,7 +16,7 @@ variable "instance_type" {
 variable "ssh_ingress_cidr" {
   description = "Swap to 0.0.0.0/0 to trip the world-open ingress policy."
   type        = string
-  default     = "10.0.0.0/16"
+  default     = "0.0.0.0/0"
 }
 
 variable "root_volume_encrypted" {
