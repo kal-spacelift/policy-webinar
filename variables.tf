@@ -29,7 +29,7 @@ variable "common_tags" {
   description = "Remove a key to trip the required-tags policy."
   type        = map(string)
   default = {
-    Owner              = "platform-team"
+    # Owner              = "platform-team"
     Environment        = "demo"
     DataClassification = "public"
   }
