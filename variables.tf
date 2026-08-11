@@ -22,7 +22,7 @@ variable "ssh_ingress_cidr" {
 variable "root_volume_encrypted" {
   description = "Swap to false to trip the encryption-at-rest policy."
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "common_tags" {
