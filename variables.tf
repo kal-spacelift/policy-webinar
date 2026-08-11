@@ -30,7 +30,7 @@ variable "common_tags" {
   type        = map(string)
   default = {
     Owner              = "platform-team"
-    Environment        = "demo"
+    Environment        = "production"
     DataClassification = "public"
   }
 }
